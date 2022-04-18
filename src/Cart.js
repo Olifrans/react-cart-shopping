@@ -11,7 +11,7 @@ const Cart = () => {
     updateItemQuantity,
     removeItem,
     emptyCart,
-    
+
   } = useCart();
 
   if (isEmpty) return <h1 className="text-center">Seu carrinho está vazio</h1>;
@@ -60,14 +60,14 @@ const Cart = () => {
         </div>
 
         <div className="col-auto ms-auto">
-              <h2>Preço Total: R$ {cartTotal} </h2>
+              <h2>Preço Total: R$ {cartTotal.toFixed(2)} </h2>
         </div>
 
 
         <div className="col-auto">
         <button className="btn btn-danger ms-2" onClick={() => emptyCart()}>Limpar Carrinho</button>
 
-        <button className="btn btn-primary ms-2">Fazer Pagamento</button>
+        <button className="btn btn-success ms-2">Fazer Pagamento</button>
 
 
         </div>

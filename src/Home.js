@@ -10,6 +10,7 @@ const Home = () => {
       <h1 className="text-center mt-3">Adcionar Nomes</h1>
       <section className="py-4 container">
         <div className="row justify-content-center">
+          
           {data.produtoData.map((item, index) => {
             return (
               <Itemcard
