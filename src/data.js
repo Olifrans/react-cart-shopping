@@ -11,7 +11,7 @@ const data = {
       id: 1,
       img: img1,
       title: "Melancia",
-      desc: "",
+      desc: "Melancia de projetos",
       price: 750,
     },
 
@@ -19,24 +19,24 @@ const data = {
       id: 2,
       img: img2,
       title: "Manga",
-      desc: "",
-      price: 5,
+      desc: "Manga importada",
+      price: 666,
     },
 
     {
       id: 3,
       img: img3,
       title: "Melão",
-      desc: "",
-      price: 3,
+      desc: "Melão amarelo",
+      price: 350.66,
     },
 
     {
       id: 4,
       img: img4,
       title: "Maçã",
-      desc: "",
-      price: 14,
+      desc: "Maçã nacional",
+      price: 1440.57,
     },
   ],
 };
