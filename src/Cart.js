@@ -60,7 +60,7 @@ const Cart = () => {
         </div>
 
         <div className="col-auto ms-auto">
-              <h2>Preço Total: R$ {cartTotal} </h2>
+              <h2>Preço Total: R$ {cartTotal.toFixed(2)} </h2>
         </div>
 
 

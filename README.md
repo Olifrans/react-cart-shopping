@@ -9,10 +9,6 @@ yarn add react-use-cart
 npm install bootstrap
 yarn add bootstrap
 
-
-
-
-
 ### Componente Card getbootstrap
 https://getbootstrap.com/docs/5.0/components/card/
 

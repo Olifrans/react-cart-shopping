@@ -11,7 +11,7 @@ const data = {
       img: img1,
       title: "Melancia",
       desc: "",
-      price: 10,
+      price: 750,
     },
 
     {
