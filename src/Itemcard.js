@@ -13,8 +13,7 @@ const Itemcard = (props) => {
         <div class="card-body text-center">
           <h5 class="card-title">{props.title}</h5>
 <<<<<<< HEAD
-          {/* <h5 class="card-title">R$ {props.price.toFixed(2)}</h5> */}
-          <h5 class="card-title">R$ {props.price.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}</h5>
+          <h5 class="card-title">R$ {props.price.toFixed(2)}</h5>
 =======
           <h5 class="card-title">R$ {props.price.toFixed(2)}</h5>
 >>>>>>> b160f65fb160fbbbb2c5c060f6a9ae00cee56e44
